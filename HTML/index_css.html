@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                
+            }
+
+            .a
+        {
+            color: red; 
+            border: 2px solid black;
+            text-align: center; 
+            font-family: sans-serif; 
+            padding: 10PX; 
+            background-color: skyblue;
+            font-size: 40px; 
+            text-shadow: 2px 2px 8px rgb(255, 1000, 255);
+        }
+        
+        .my_form{
+
+            border: 2px solid black;
+            width: 30%;
+            text-align: center;
+            margin: auto;
+            padding: 40px;
+            background-color: black;
+            color: rgb(0, 179, 255);
+        }
+
+        .inp{
+
+            width: 95%;
+            padding: 10px;
+            margin: 10px 5px;
+
+        }
+
+        #btn{
+
+            width: 100%;
+            background-color: rgb(0, 179, 255);
+            border: none;
+        }
+
+        #box{
+            width: 95%;
+            padding: 12px;
+            margin: 12px 6px; ;
+            text-emphasis-color: red;
+            border: none;
+        }
+
+    
+        .c{
+            background-color: aquamarine;
+            margin: 0px 200px;
+            font-weight: 100;
+            font-size: 20px;
+            padding: 78px;
+            box-sizing: border-box;
+
+        }
+        .b{
+            background-color: rgb(0, 255, 247);
+            margin: 0px 200px;
+            font-weight: 100;
+            font-size: 20px;
+            padding: 78px;
+            box-sizing: border-box;
+                
+        }
+    </style>
+
+</head>
+<body>
+        <!-- 3 type of css
+    
+    1. Inline css 
+    2. Internal css 
+    3. External css -->
+
+
+    <!-- 1. inline css -->
+    <h1 style=" color: red; border: 2px solid black;
+                text-align: center; font-family: sans-serif; 
+                padding: 10PX; background-color: skyblue;
+                font-size: 40px; text-shadow: 2px 2px 8px green;">
+        This is h1 heading tag
+    </h1>
+    <br><br>    
+    <h1 class="a">
+        This is second h1 heading tag
+    </h1>
+
+
+    <form action="" class="my_form">
+            <h1>Login Form</h1>
+            <input type="text" placeholder="Username" class="inp">
+            <input type="text" placeholder="Password"  id="box"> 
+            <input type="submit" class="inp" id="btn">
+            
+
+    </form>
+    <br><br>
+    
+    <h1 class="b">
+        This is H1 Paragraph 1
+    </h1>
+    <h1 class="c">
+        This is H1 Paragraph 2
+    </h1>
+</body>
+</html>
