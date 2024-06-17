@@ -7,7 +7,7 @@
 
 .box{
     height: 200px;
-    weight: 200px;
+    width: 200px;
     background-color: bisque;
     display: inline-block;
     margin: 5px;
